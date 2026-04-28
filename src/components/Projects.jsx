@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -11,7 +12,8 @@ function Projects() {
       desc: "A web platform connecting food donors with NGOs to reduce food waste.",
       details:
         "This full-stack system allows food donors to post surplus food, and NGOs receive real-time notifications to accept or reject donations. Built with a focus on high performance and clean UI/UX.",
-      github: "#",
+      github: "https://github.com/SivaSankar-fswd/Food-Waste-Reduction-System.git",
+      demo: "#",
       color: "from-emerald-400 to-teal-500",
     },
     {
@@ -21,24 +23,27 @@ function Projects() {
       details:
         "Users can create, filter, and manage ADRs with structured tracking. Integrated seamlessly with the GitHub repository API for persistent, version-controlled documentation.",
       github: "#",
+      demo: "#",
       color: "from-blue-400 to-indigo-500",
     },
     {
-      title: "Rich Text Engine",
-      tech: ["React", "Tiptap", "Node.js"],
-      desc: "Custom highly extensible rich text editor with backend sync.",
+      title: "Book Library App",
+      tech: ["HTML", "CSS", "JS"],
+      desc: "A simple Book Library app using HTML, CSS, and JavaScript to manage books with add, delete, and save functionality.",
       details:
-        "Built a customizable editor featuring complex formatting tools, markdown support, and reliable server-side storage for structured content management.",
-      github: "#",
+        "A simple and responsive Book Library application built using HTML, CSS, and JavaScript that allows users to add, edit, delete, and mark books as completed. It uses browser local storage to save books, ensuring data persists across sessions while providing a clean and user-friendly interface.",
+      github: "https://github.com/SivaSankar-fswd/Book-Library-App.git",
+      demo: "https://book-library-app-zeta.vercel.app/",
       color: "from-purple-400 to-pink-500",
     },
     {
-      title: "E-commerce Microservice",
-      tech: ["Spring Boot", "MySQL", "JWT"],
-      desc: "Robust REST API backend for a high-traffic e-commerce platform.",
+      title: "To-Do List App",
+      tech: ["HTML", "CSS", "JS"],
+      desc: "A simple To-Do List app using HTML, CSS, and JavaScript to manage tasks with add, delete, and save functionality.",
       details:
-        "Implemented secure JWT authentication, efficient product catalog management, and structured API endpoints adhering strictly to clean layered architecture principles.",
-      github: "#",
+        "A simple and responsive To-Do List application built using HTML, CSS, and JavaScript that allows users to add, edit, delete, and mark tasks as completed. It uses browser local storage to save tasks, ensuring data persists across sessions while providing a clean and user-friendly interface.",
+      github: "https://github.com/SivaSankar-fswd/To-Do-LIst-.git",
+      demo: "https://to-do-list-nu-murex-15.vercel.app/",
       color: "from-orange-400 to-red-500",
     },
   ];
@@ -144,14 +149,25 @@ function Projects() {
                 {selectedProject.details}
               </p>
 
-              <div className="flex gap-4">
-                <a
+              <div className="flex flex-col sm:flex-row gap-4">
+                <motion.a
+                  whileHover={{ y: -4, scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  href={selectedProject.demo}
+                  target="_blank"
+                  className="bg-gradient-to-r from-primary-600 to-primary-400 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary-500/25 border border-primary-400/20"
+                >
+                  Live Demo <FaExternalLinkAlt className="text-sm" />
+                </motion.a>
+                <motion.a
+                  whileHover={{ y: -4, scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
                   href={selectedProject.github}
                   target="_blank"
-                  className="bg-white text-slate-950 hover:bg-slate-200 px-8 py-4 rounded-xl font-bold transition-colors flex items-center justify-center"
+                  className="bg-slate-800 text-slate-200 hover:text-white hover:bg-slate-700 border border-slate-700 px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2"
                 >
-                  View Source Code
-                </a>
+                  <FaGithub className="text-lg" /> Source Code
+                </motion.a>
               </div>
             </motion.div>
           </motion.div>

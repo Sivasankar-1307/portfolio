@@ -42,7 +42,7 @@ function Hero() {
         </motion.h3>
 
         <motion.p variants={heroItem} className="max-w-2xl text-lg text-slate-400 mx-auto mb-10 leading-relaxed font-light">
-          I craft highly scalable web applications using React and Spring Boot. 
+          I craft highly scalable web applications using React and Node.js. 
           Dedicated to building elegant solutions through clean architecture, immersive design, and meticulous engineering.
         </motion.p>
 

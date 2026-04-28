@@ -5,17 +5,17 @@ function Skills() {
     {
       title: "Frontend",
       icon: "🎨",
-      skills: ["React", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Framer Motion"],
+      skills: ["React", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Framer Motion", "Next.js"],
     },
     {
       title: "Backend",
       icon: "⚙️",
-      skills: ["Spring Boot", "Node.js", "Express", "RESTful APIs", "Java"],
+      skills: ["FastAPIs","Node.js", "Express", "RESTful APIs", "Python"],
     },
     {
       title: "Database",
       icon: "s🗄️",
-      skills: ["MySQL", "SQLite", "PostgreSQL", "MongoDB"],
+      skills: ["MySQL", "SQLite", "PostgreSQL"],
     },
     {
       title: "Tools & DevOps",
