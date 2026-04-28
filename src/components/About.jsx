@@ -56,8 +56,8 @@ function About() {
           >
             {/* Stat Cards */}
             <div className="glass-card p-8 rounded-3xl flex flex-col items-center justify-center text-center">
-              <span className="text-5xl font-black text-primary-400 mb-2">1+</span>
-              <span className="text-slate-400 font-medium">Years Experience</span>
+              <span className="text-5xl font-black text-primary-400 mb-2">6 months</span>
+              <span className="text-slate-400 font-medium">Internship Experience</span>
             </div>
             <div className="glass-card p-8 rounded-3xl flex flex-col items-center justify-center text-center">
               <span className="text-5xl font-black text-primary-400 mb-2">10+</span>
