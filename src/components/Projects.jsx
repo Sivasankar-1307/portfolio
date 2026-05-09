@@ -13,7 +13,7 @@ function Projects() {
       details:
         "This full-stack system allows food donors to post surplus food, and NGOs receive real-time notifications to accept or reject donations. Built with a focus on high performance and clean UI/UX.",
       github: "https://github.com/SivaSankar-fswd/Food-Waste-Reduction-System.git",
-      demo: "#",
+      demo: "https://food-donate-app.onrender.com/",
       color: "from-emerald-400 to-teal-500",
     },
     {
