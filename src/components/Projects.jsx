@@ -22,7 +22,7 @@ function Projects() {
       desc: "System to manage Architecture Decision Records directly via GitHub.",
       details:
         "Users can create, filter, and manage ADRs with structured tracking. Integrated seamlessly with the GitHub repository API for persistent, version-controlled documentation.",
-      github: "#",
+      github: "https://github.com/Sivasankar-1307/adr.git",
       demo: "#",
       color: "from-blue-400 to-indigo-500",
     },
