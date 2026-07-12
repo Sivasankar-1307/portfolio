@@ -23,7 +23,7 @@ function Projects() {
       details:
         "Users can create, filter, and manage ADRs with structured tracking. Integrated seamlessly with the GitHub repository API for persistent, version-controlled documentation.",
       github: "https://github.com/Sivasankar-1307/adr.git",
-      demo: "#",
+      demo: "https://adr-pc1mnt346-sivasankar-1307s-projects.vercel.app/",
       color: "from-blue-400 to-indigo-500",
     },
     {
