@@ -8,7 +8,7 @@ function Projects() {
   const projects = [
     {
       title: "Food Waste Reduction System",
-      tech: ["React", "Node.js", "SQLite"],
+      tech: ["React", "Node.js", "PostgreSQL"],
       desc: "A web platform connecting food donors with NGOs to reduce food waste.",
       details:
         "This full-stack system allows food donors to post surplus food, and NGOs receive real-time notifications to accept or reject donations. Built with a focus on high performance and clean UI/UX.",
@@ -27,13 +27,13 @@ function Projects() {
       color: "from-blue-400 to-indigo-500",
     },
     {
-      title: "Book Library App",
-      tech: ["HTML", "CSS", "JS"],
-      desc: "A simple Book Library app using HTML, CSS, and JavaScript to manage books with add, delete, and save functionality.",
+      title: "Party Rental App",
+      tech: ["Next.js","Node.js","PostgreSQL"],
+      desc: "A simple Rental App built with modern web technologies to browse, book, and manage rental products with user authentication and booking management.",
       details:
-        "A simple and responsive Book Library application built using HTML, CSS, and JavaScript that allows users to add, edit, delete, and mark books as completed. It uses browser local storage to save books, ensuring data persists across sessions while providing a clean and user-friendly interface.",
-      github: "https://github.com/SivaSankar-fswd/Book-Library-App.git",
-      demo: "https://book-library-app-zeta.vercel.app/",
+        "A simple and responsive Rental App built using modern web technologies that allows users to browse, book, and manage rental products. It features user authentication, booking management, order tracking, and an intuitive interface, providing a seamless rental experience across devices.",
+      github: "https://github.com/Sivasankar-1307/rental-app.git",
+      demo: "https://rentafest-frontend.onrender.com/customer/home",
       color: "from-purple-400 to-pink-500",
     },
     {
